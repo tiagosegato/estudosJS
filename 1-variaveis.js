@@ -17,19 +17,31 @@ Podem começar com letra, $, ou _
 Não pode começar com números
 Pode combinar letras e números
 É possível usar símbolos e acentos
-Não pode conter espaços
+Não pode conter espaços (_ ou camelCase)
 Não podem ser palavras reservadas
 Maiúsculas e minúsculas são diferentes
 Usar nomes coerentes
 */
 
-//const ou let
+//let
 
 /*
 let message = 'Hello, World!';
-message = 'Nice to meet you!'; //com const não seria possível
+var message = 'Nice to meet you!'; //com const não seria possível
 console.log(message);
 */
+
+/*
+let message = 'Hello, World!';
+{
+    let message = 'Nice to meet you!'; //com const não seria possível
+}
+console.log(message);
+*/
+
+//Tipos de Dados: 
+//String, Number (Infinity, NaN), Boolean, Null, Undefined, Object (Array), Function
+
 
 //Strings
 /*
@@ -49,6 +61,8 @@ console.log(`Eu sou: ${nome} ${sobrenome}`) //template string
 
 console.log(nome.toLowerCase())
 console.log(sobrenome.toUpperCase())
+
+// mais funções em MDN...
  */
 
 //Numbers
