@@ -1,28 +1,41 @@
-const sum = 1 + 3;
+//Condições Simples
 
-if (sum === 2) {
-  console.log('A soma é 2');
-} else if (sum === 3) {
-    console.log('A soma não é 2');
+var velocidade = 60;
+
+if (velocidade > 80) {
+  console.log('Você foi multado');
+} 
+
+//Condições Compostas
+
+var idade = 30;
+
+if (idade >= 18) {
+  console.log('Você é maior de idade');
 } else {
-  console.log('A soma não é 2 nem 3');
+  console.log('Você é menor de idade');
 }
 
+//Condições Aninhadas
 
-const idade = 18;
+var idade = 18;
 
-//pode usar o && ou o || para fazer comparações
 if (idade < 10) {
   console.log('Não pode entrar');
-} else if (idade > 11 && idade <= 18) {    
-  console.log('Maior de 11 e menor ou igual a 18');
+} else if (idade >= 10 && idade < 18) { //pode usar o && ou o || para fazer comparações  
+  console.log('Pode entrar, acompanhado');
 } else {
-    console.log('Ultrapassou, pode entrar');
+    console.log('Pode entrar sozinho');
 }
 
-//ternary operator
-let number = sum === 2 ? 'A soma é 2' : 'A soma não é 2';
-console.log(number);
+
+//Operador ternário
+num = 2
+resultado = (num % 2 == 0) ? 'Par' : 'Ímpar';
+console.log(resultado);
+
+
+//Condições Múltiplas - utilizada para valores fixos
 
 //switch case
 const fruit = 'banana';
