@@ -1,6 +1,7 @@
 
-// 1. For loop
-/*
+// 1. For loop (com variável de controle)
+//for(início ; teste ; incremento){}
+
 for(let i = 0; i < 5; i++) {
     console.log(i);
 
@@ -8,6 +9,7 @@ for(let i = 0; i < 5; i++) {
 
 //Exemplo
 const carros = ['Ford', 'Chevrolet', 'Fiat', 'Volkswagen', 'Renault'];
+
 for(let i = 0; i < carros.length; i++) {
     console.log(carros[i]);
 }
@@ -26,7 +28,7 @@ carros.forEach(function(value, index) {
 });
 
 
-// 2. While loop
+// 2. While loop (Repetição com teste no início)
 let i = 0;
 while(i < 5) {
     console.log(i);
@@ -43,7 +45,7 @@ while(i < carros.length) {
 }
 
 
-// 3. Do while loop
+// 3. Do while loop (Repetição com teste no final)
 
 let i = 0;
 do {
@@ -53,4 +55,3 @@ do {
 while(i < 5); 
 
 
-*/
