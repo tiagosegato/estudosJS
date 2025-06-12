@@ -1,5 +1,19 @@
 //objetos
 
+let animal = {
+    nome: 'Bob',
+    especie: 'Cachorro',
+    idade: 3
+}
+
+console.log(animal.nome);
+console.log(animal.especie);
+console.log(animal.idade);
+
+ou 
+
+console.log(`O animal ${animal.nome}, é um ${animal.especie}, e tem ${animal.idade} anos. `)
+
 /*
 // criando o objeto
 const Pessoa = {
