@@ -1,6 +1,7 @@
 //Primeiro script - Libertando da maldição!
 console.log('Hello, World!');
 
+/*
 var message = 'Hello, World!';
 console.log(message);
 
@@ -9,7 +10,7 @@ var n1, n2
 n1 = 5
 n2 = 2
 console.log(n1 + n2)
-
+*/
 
 //Identificadores:
 /*
@@ -25,6 +26,7 @@ Usar nomes coerentes
 
 //let
 
+/*
 let message = 'Hello, World!';
 var message = 'Nice to meet you!'; //com const não seria possível
 console.log(message);
@@ -38,9 +40,9 @@ let message = 'Hello, World!';
 console.log(message);
 
 
-//Tipos de Dados: 
+//Tipos de Dados:
 //String, Number (Infinity, NaN), Boolean, Null, Undefined, Object (Array), Function
-
+*/
 
 //Strings
 /*
@@ -49,7 +51,7 @@ console.log(message);
 `javascript`
 */
 
-
+/*
 const nome = 'Tiago'
 console.log(nome.length)
 
@@ -68,11 +70,11 @@ console.log(sobrenome.toUpperCase())
 //7, 3.14, -15, -0.5
 
 
-const numero = 7 
+const numero = 7
 const decimal = 7.77
 
 console.log(numero + 5)
-console.log( typeof numero.toString())
+console.log(typeof numero.toString())
 
 console.log(typeof numero)
 
@@ -83,7 +85,7 @@ console.log(typeof numero)
 
 console.log(true)
 
-console.log(1 > 2)  
+console.log(1 > 2)
 
 
 //Null e Undefined
@@ -102,3 +104,4 @@ Number(n)
 
 n.toString()
 String(n)
+*/
