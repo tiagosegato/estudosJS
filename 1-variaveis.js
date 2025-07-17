@@ -1,10 +1,9 @@
 //Primeiro script - Libertando da maldição!
-console.log('Hello, World!');
+//console.log('Hello, World!');
 
 /*
 var message = 'Hello, World!';
 console.log(message);
-
 
 var n1, n2
 n1 = 5
@@ -27,15 +26,15 @@ Usar nomes coerentes
 //let
 
 /*
-let message = 'Hello, World!';
-var message = 'Nice to meet you!'; //com const não seria possível
+let message = 'Olá, Mundo!';
+var message = 'Bem-vindo!'; //com const não seria possível
 console.log(message);
 
 
 //Exemplo com a let sendo usada em diferentes contextos
-let message = 'Hello, World!';
+let message = 'Olá, Mundo!';
 {
-    let message = 'Nice to meet you!'; //com const não seria possível
+    let message = 'Bem-vindo!'; //com const não seria possível
 }
 console.log(message);
 
@@ -51,17 +50,24 @@ console.log(message);
 `javascript`
 */
 
+//Strings
 /*
-const nome = 'Tiago'
+let nome = "Ana"
+let sobrenome = 'Silva'
+let cidade = `Fernandópolis`
+
+console.log(nome + sobrenome)
+console.log(nome, sobrenome)
+console.log("O nome é: " + nome + " e o sobrenome é: " + sobrenome)
+console.log(`O nome é: ${nome} e o sobrenome é: ${sobrenome}`)
+*/
+
+//Funções
+/*
 console.log(nome.length)
-
-const sobrenome = 'Segato'
-
-console.log('Eu sou: ' + nome + ' ' + sobrenome)
-console.log(`Eu sou: ${nome} ${sobrenome}`) //template string
-
 console.log(nome.toLowerCase())
 console.log(sobrenome.toUpperCase())
+*/
 
 // mais funções em MDN...
 
@@ -69,34 +75,66 @@ console.log(sobrenome.toUpperCase())
 //Numbers
 //7, 3.14, -15, -0.5
 
+/*
+let idade = 38
+let preco = 1.99
+let valor = 10 / 0
 
-const numero = 7
-const decimal = 7.77
+console.log(`O valor do produto é ${preco}`)
+console.log(typeof idade)
+console.log("texto" * 2);
 
-console.log(numero + 5)
-console.log(typeof numero.toString())
+console.log(idade + 5)
+console.log(typeof idade.toString())
 
-console.log(typeof numero)
+console.log(typeof idade)
+*/
 
 
 //Boolean
 //true, false
 
+/*
+let ativo = true
+let logado = false
 
-console.log(true)
+let idade = 8
 
-console.log(1 > 2)
+let maiorIdade = idade >= 18
+
+console.log(maiorIdade)
+*/
 
 
 //Null e Undefined
 
-
+/*
 const x = null //esse está vazio
 const y = undefined //esse não foi definido
 
+let usuario = null
+let senha     //undefined
+
+usuario = 'tiagosegato'
+senha = '123456'
+
+console.log(usuario)
+console.log(senha)
+*/
+
 
 //Conversões de Tipo
+/*
+let num = "10"
+let numero = Number(num)
 
+let val = 123
+let valor = String(val)
+
+console.log(typeof num)
+console.log(typeof numero)
+console.log(typeof val)
+console.log(typeof valor)
 
 Number.parseFloat(n)
 Number.parseInt(n)

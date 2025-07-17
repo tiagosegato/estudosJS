@@ -42,7 +42,6 @@ for(let pos in num) {
 }
 
 
-
 //map, filter e reduce
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 

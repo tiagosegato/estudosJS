@@ -1,6 +1,6 @@
 //Condições Simples
 
-var velocidade = 60;
+let velocidade = 60;
 
 if (velocidade > 80) {
   console.log('Você foi multado');
@@ -16,7 +16,7 @@ if (idade >= 18) {
   console.log('Você é menor de idade');
 }
 
-//Condições Aninhadas
+//Condições Aninhadas / Múltiplas
 
 var idade = 18;
 
@@ -38,9 +38,9 @@ console.log(resultado);
 //Condições Múltiplas - utilizada para valores fixos
 
 //switch case
-const fruit = 'banana';
+const fruta = 'banana';
 
-switch (fruit) {
+switch (fruta) {
   case 'banana':
     console.log('R$ 3,00 / kg');
     break;
