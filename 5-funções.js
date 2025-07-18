@@ -5,6 +5,7 @@
 // Pode receber parâmetros e retornar um resultado
 
 //estrutura da função
+/*
 função nome(parâmetros) {
     // código da função
     retorno resultado;
@@ -12,14 +13,19 @@ função nome(parâmetros) {
 
 //chamada da função
 nome(parâmetros)
+*/
 
-//Exemplo
-function sum(a, b){
+//Exemplos
+function basica() {
+    console.log('Olá, Mundo!');
+}
+basica();
+
+/*
+function sum(a, b) {
     return a + b;
 }
-
-const resultado = sum(2, 3);
-console.log(resultado); // 5 
+console.log(sum(2, 3)); // 5 
 
 
 //outra maneira de fazer a mesma coisa
@@ -49,8 +55,8 @@ const sum4 = (a, b) => a + b;
 
 //EXERCÍCIOS
 
-1 - verificar se o número é par ou ímpar
-2 - criar o fatorial de um número
+//1 - verificar se o número é par ou ímpar
+//2 - criar o fatorial de um número
 
 function parOuImpar(numero) {
     if (numero % 2 === 0) {
@@ -60,7 +66,7 @@ function parOuImpar(numero) {
     }
 }
 
-let resultado = parOuImpar(5);
+let result = parOuImpar(5);
 console.log(resultado); // O número é ímpar
 
 function fatorial(numero) {
@@ -70,7 +76,7 @@ function fatorial(numero) {
     }
     return resultado;
 }
-
+*/
 
 
 
