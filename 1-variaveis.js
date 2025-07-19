@@ -21,6 +21,7 @@ Não pode conter espaços (_ ou camelCase)
 Não podem ser palavras reservadas
 Maiúsculas e minúsculas são diferentes
 Usar nomes coerentes
+JS é Case Sensitive!!!
 */
 
 //let
@@ -52,8 +53,8 @@ console.log(message);
 
 //Strings
 /*
-let nome = "Ana"
-let sobrenome = 'Silva'
+let nome = "Tiago"
+let sobrenome = 'Segato'
 let cidade = `Fernandópolis`
 
 console.log(nome + sobrenome)

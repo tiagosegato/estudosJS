@@ -1,7 +1,9 @@
 //Arrays (vetor) - Variáveis compostas
 
-let num = [1,2,3,4,5];
+let num = [1, 2, 3, 4, 5];
 console.log(num);
+
+console.log(num[0]); //mostra o primeiro item
 
 //adicionando elementos no array
 num[5] = 6;
@@ -15,11 +17,14 @@ console.log(nomes.length) //tamanho da lista
 
 nomes[2] = "Le" //altera o item x da lista
 
-nomes.push('Ferro') //adiciona um item na lista
+nomes.push('Ferro') //adiciona um item no final lista
 console.log(nomes)
 
 nomes.pop() //remove o último item da lista
-console.log(nomes)  
+console.log(nomes)
+
+nomes.splice(2, 1) //remove o item da posição 2 da lista e apenas 1 elemento da lista
+console.log(nomes)
 
 nomes.shift() //remove o primeiro item da lista
 console.log(nomes)
@@ -31,13 +36,13 @@ console.log(nomes.indexOf('Segato')) //retorna o índice do item na lista
 
 
 //Executando a lista num laço de repetição
-let num = [1,2,3,4,5];
-for(let pos = 0; pos < num.length; pos++){
+let num = [1, 2, 3, 4, 5];
+for (let pos = 0; pos < num.length; pos++) {
     console.log(num);
 }
 
 //ou...
-for(let pos in num) {
+for (let pos in num) {
     console.log(`A posição ${pos} tem o valor ${num[pos]}`)
 }
 
@@ -49,7 +54,7 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 const numerox2 = numbers.map(function (number) {
     return number * 2
 })
-console.log(numerox2)  
+console.log(numerox2)
 
 //Usando filter
 const ages = [15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
