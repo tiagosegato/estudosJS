@@ -1,5 +1,5 @@
 //Arrays (vetor) - Variáveis compostas
-
+/*
 let num = [1, 2, 3, 4, 5];
 console.log(num);
 
@@ -46,27 +46,43 @@ for (let pos in num) {
     console.log(`A posição ${pos} tem o valor ${num[pos]}`)
 }
 
+//forEach
+let compras = [10, 1.99, 100, 20.12];
+let total = 0
+
+compras.forEach(function (valor) { //Função de callback
+    total = total + valor; // valor representa cada item do for (forEach)
+});
+
+//compras.forEach(valor => total += valor); função como arrow function
+
+console.log(`A soma das compras é ${total.toFixed(2)}`)
+
 
 //map, filter e reduce
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 //Usando map
 const numerox2 = numbers.map(function (number) {
-    return number * 2
+    return number * 2 // A diferença para o forEach é que o map tem o return
 })
+
+//const numerox2 = numbers.map((num) => num * 2);// versão com arrow functions
+
 console.log(numerox2)
 
 //Usando filter
 const ages = [15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
 
 const evenAges = ages.filter(function (age) {
-    return age % 2 === 0
+    return age % 2 === 0 // retorna um novo array com itens baseados na condição (idades pares)
 })
 console.log(evenAges)
 
 //Usando reduce
-const sumAges = ages.reduce(function (sum, age) {
-    return sum + age
+const sumAges = ages.reduce(function (sum, age) { //sempre vai ter um acumulador (sum) e o valor atual (age)
+    return sum + age //reduz o array em um único valor
 })
 console.log(sumAges)
+*/
 

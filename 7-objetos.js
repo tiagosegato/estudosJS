@@ -1,4 +1,9 @@
-//objetos
+//OBJETOS
+// Objetos são estruturas que permitem armazenar dados em pares de chave-valor.
+// Eles são úteis para organizar e manipular dados de forma estruturada.
+// Em JavaScript, objetos são criados usando chaves {} e podem conter propriedades e métodos.
+// Propriedades são os dados armazenados no objeto, enquanto métodos são funções associadas ao objeto.
+// Exemplo de criação de um objeto simples
 
 let animal = {
     nome: 'Bob',
@@ -6,13 +11,31 @@ let animal = {
     idade: 3
 }
 
-console.log(animal.nome);
-console.log(animal.especie);
-console.log(animal.idade);
+// console.log(animal); //mostra o objeto inteiro
 
-ou 
+// //acessando as propriedades do objeto por: notação de ponto
+// console.log(animal.nome);
+// console.log(animal.especie);
+// console.log(animal.idade);
 
-console.log(`O animal ${animal.nome}, é um ${animal.especie}, e tem ${animal.idade} anos. `)
+// //ou
+
+// console.log(`O animal ${animal.nome}, é um ${animal.especie}, e tem ${animal.idade} anos. `)
+
+//acessando as propriedades do objeto por: notação de colchetes
+console.log(animal['nome']);
+
+//Acessando os dados por meio de função
+function exibeDadosAnima(objAnimal, dado) {
+    return objAnimal[dado];
+}
+
+console.log(exibeDadosAnima(animal, 'especie'));
+
+
+
+
+
 
 /*
 // criando o objeto
@@ -46,6 +69,7 @@ console.log(Pessoa.novaLista.item2);
 */
 
 //CRIANDO UMA LISTA COM VÁRIOS OBJETOS
+/*
 const todos = [
     {
         id: 1,
@@ -66,3 +90,4 @@ const todos = [
 
 console.log(todos);
 console.log(todos[2].texto);
+*/

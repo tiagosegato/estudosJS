@@ -71,7 +71,7 @@ console.log(sobrenome.toUpperCase())
 */
 
 // mais funções em MDN...
-
+//https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String#m%C3%A9todos
 
 //Numbers
 //7, 3.14, -15, -0.5
