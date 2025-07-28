@@ -42,7 +42,7 @@ for (let pos = 0; pos < num.length; pos++) {
 }
 
 //ou...
-for (let pos in num) {
+for (let pos of num) {
     console.log(`A posição ${pos} tem o valor ${num[pos]}`)
 }
 

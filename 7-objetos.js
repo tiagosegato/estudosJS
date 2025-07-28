@@ -56,6 +56,11 @@
 // carro.modelo = 'Fusca'
 // console.log(carro)
 
+//Percorrendo um objeto (for..in)
+// for (let chave in animal) {
+//     console.log(`${chave}: ${animal[chave]}`);
+// }
+
 
 //OBJETOS COMPOSTOS
 // Objetos podem conter outros objetos, formando estruturas mais complexas.
@@ -119,14 +124,15 @@ console.log(todos[2].texto);
 // Objetos podem conter funções, que são chamadas de métodos.
 // Métodos são funções associadas a um objeto e podem acessar as propriedades do objeto usando a palavra-chave `this`.
 // Exemplo de um objeto com um método   
-const estudante = {
-    nome: "Tiago",
-    idade: 38,
-    curso: "JavaScript",
-    media: 7,
-    estaAprovado: function () {
-        return this.media >= 6 ? true : false;
-    }
-}
+// const estudante = {
+//     nome: "Tiago",
+//     idade: 38,
+//     curso: "JavaScript",
+//     media: 7,
+//     estaAprovado: function () {
+//         return this.media >= 6 ? true : false;
+//     }
+// }
 
-console.log(estudante.estaAprovado()); //true
+// console.log(estudante.estaAprovado()); //true
+
