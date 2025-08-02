@@ -4,13 +4,13 @@
 // Em JavaScript, objetos são criados usando chaves {} e podem conter propriedades e métodos.
 // Propriedades são os dados armazenados no objeto, enquanto métodos são funções associadas ao objeto.
 // Exemplo de criação de um objeto simples
+/*
 const animal = {
     nome: 'Bob',
     especie: 'Cachorro',
     idade: 3
 }
 
-/*
 console.log(animal); //mostra o objeto inteiro
 
 //acessando as propriedades do objeto por: notação de ponto
@@ -69,31 +69,6 @@ for (let chave in animal) {
 }
 */
 
-// OBJETOS COMPOSTOS
-// Objetos podem conter outros objetos, formando estruturas mais complexas.
-// Exemplo de um objeto com outros objetos ou arrays dentro dele 
-
-/*
-// criando o objeto "complexo"
-const pessoa = {
-    nome: "Tiago",
-    sobrenome: "Segato",
-    idade: 38,
-    hobbies: ["futebol", "música", "programação"],
-    endereco: {
-        rua: "Rua Central",
-        numero: 127,
-        complemento: "Apto 101"
-    }
-}
-
-//acessando um item da lista de hobbies
-console.log(pessoa.hobbies[1]);
-
-//acessando um item do objeto dentro do objeto
-console.log(pessoa.endereco.rua);
-*/
-
 /*
 //CRIANDO UMA LISTA COM VÁRIOS OBJETOS
 const todos = [
@@ -118,10 +93,35 @@ console.log(todos);
 console.log(todos[2].texto);
 */
 
+/*
+// OBJETOS COMPOSTOS
+// Objetos podem conter outros objetos, formando estruturas mais complexas.
+// Exemplo de um objeto com outros objetos ou arrays dentro dele 
+
+// criando o objeto "complexo"
+const pessoa = {
+    nome: "Tiago",
+    sobrenome: "Segato",
+    idade: 38,
+    hobbies: ["futebol", "música", "programação"],
+    endereco: {
+        rua: "Rua Central",
+        numero: 127,
+        complemento: "Apto 101"
+    }
+}
+
+//acessando um item da lista de hobbies
+console.log(pessoa.hobbies[1]);
+
+//acessando um item do objeto dentro do objeto
+console.log(pessoa.endereco.rua);
+*/
+
+/*
 //OBJETOS COM FUNÇÕES
 // Objetos podem conter funções, que são chamadas de métodos.
 // Métodos são funções associadas a um objeto e podem acessar as propriedades do objeto usando a palavra-chave `this`.
-/*
 // Exemplo de um objeto com um método   
 const estudante = {
     nome: "Tiago",

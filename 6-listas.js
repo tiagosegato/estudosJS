@@ -1,6 +1,6 @@
 //Arrays (vetor) - Variáveis compostas
 /*
-let num = [1, 2, 3, 4, 5];
+const num = [1, 2, 3, 4, 5];
 
 console.log(num);
 console.log(num[0]);
@@ -66,7 +66,7 @@ compras.forEach(function (valor) { //Função de callback
     total = total + valor; // valor representa cada item do for (forEach)
 });
 
-//compras.forEach(valor => total += valor); função como arrow function
+//compras.forEach(valor => total += valor); //função como arrow function
 
 console.log(`A soma das compras é ${total.toFixed(2)}`)
 */
