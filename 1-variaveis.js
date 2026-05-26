@@ -1,5 +1,5 @@
 //Primeiro script - Libertando da maldição!
-//console.log('Hello, World!');
+// console.log('Hello, World!');
 
 /*
 var message = 'Hello, World!';
@@ -36,13 +36,14 @@ console.log(message);
 let message = 'Olá, Mundo!';
 {
     let message = 'Bem-vindo!'; //com const não seria possível
+
 }
 console.log(message);
-
+*/
 
 //Tipos de Dados:
 //String, Number (Infinity, NaN), Boolean, Null, Undefined, Object (Array), Function
-*/
+
 
 //Strings
 /*
@@ -61,10 +62,12 @@ console.log(nome + sobrenome)
 console.log(nome, sobrenome)
 console.log("O nome é: " + nome + " e o sobrenome é: " + sobrenome)
 console.log(`O nome é: ${nome} e o sobrenome é: ${sobrenome}`)
-*/
+
+let textão = `vou colocar um texto
+em várias linhas`
 
 //Funções
-/*
+
 console.log(nome.length)
 console.log(nome.toLowerCase())
 console.log(sobrenome.toUpperCase())
@@ -74,7 +77,7 @@ console.log(sobrenome.toUpperCase())
 //https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String#m%C3%A9todos
 
 //Numbers
-//7, 3.14, -15, -0.5
+// 7, 3.14, -15, -0.5
 
 /*
 let idade = 38
@@ -82,7 +85,7 @@ let preco = 1.99
 let valor = 10 / 0
 
 console.log(`O valor do produto é ${preco}`)
-console.log(typeof idade)
+console.log(typeof preco)
 console.log("texto" * 2);
 
 console.log(idade + 5)
@@ -99,7 +102,7 @@ console.log(typeof idade)
 let ativo = true
 let logado = false
 
-let idade = 8
+let idade = 28
 
 let maiorIdade = idade >= 18
 

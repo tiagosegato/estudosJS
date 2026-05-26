@@ -93,11 +93,11 @@ console.log(todos);
 console.log(todos[2].texto);
 */
 
-/*
 // OBJETOS COMPOSTOS
 // Objetos podem conter outros objetos, formando estruturas mais complexas.
 // Exemplo de um objeto com outros objetos ou arrays dentro dele 
 
+/*
 // criando o objeto "complexo"
 const pessoa = {
     nome: "Tiago",
