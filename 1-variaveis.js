@@ -194,10 +194,10 @@ console.log(frutas.length)
 /*
 function somar(n1, n2) {
     return (n1 + n2)
-}
+    }
 
-console.log(somar(3, 4))
-*/
+    console.log(somar(3, 4))
+    */
 
 //CONVERSÕES DE TIPOS
 /*
@@ -227,3 +227,29 @@ Boolean("")       // false
 String(true);     // "true"
 String(false);    // "false"
 */
+
+//EXERCÍCIOS
+
+/*
+Exiba o nome e sobre nome do estudante. Receber separados, mostrar junto!
+O curso que ele faz: "Estudante do curso: ???"
+Sua média aritmética baseado em 3 notas.
+Por fim exiba se ele está aprovado (true) ou reprovado (false)
+*/
+let nome = "Tiago"
+let sobrenome = "Segato"
+let curso = "Javascript"
+let n1, n2, n3
+n1 = 8
+n2 = 9
+n3 = 0
+
+let media = (n1 + n2 + n3) / 3
+let aprovado = media >= 6
+//let aprovado = media >= 6 ? "Aprovado" : "Reprovado"
+
+console.log(nome, sobrenome)
+console.log(`Estudante do curso: ${curso}`)
+console.log(`Média: ${media.toFixed(2)}`)
+console.log('O aluno está: ' + aprovado)
+
