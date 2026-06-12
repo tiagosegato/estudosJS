@@ -16,17 +16,18 @@ nome(parâmetros)
 */
 
 //Exemplos
+/*
 function basica() {
     console.log('Olá, Mundo!');
 }
 basica();
+*/
 
 /*
 function sum(a, b) {
     return a + b;
 }
-console.log(sum(2, 3)); // 5 
-
+console.log(sum(2, 3)); // 5
 
 //outra maneira de fazer a mesma coisa
 function sum2(a, b) {
@@ -34,30 +35,33 @@ function sum2(a, b) {
 }
 
 sum2(2, 3); // 5
+*/
 
-
+/*
 //Função dentro de uma variável
 let v = function sum(a, b) {
-    return a + b;
+return a + b;
 }
 
 console.log(v(2, 3)); // 5
-
+*/
 
 //arrow function
+/*
 const sum3 = (a, b) => {
     return a + b;
 }
 
-ou 
+ou
 
 const sum4 = (a, b) => a + b;
+*/
 
 //EXERCÍCIOS
 
 //1 - verificar se o número é par ou ímpar
 //2 - criar o fatorial de um número
-
+/*
 function parOuImpar(numero) {
     if (numero % 2 === 0) {
         return "O número é par";
@@ -68,7 +72,9 @@ function parOuImpar(numero) {
 
 let result = parOuImpar(5);
 console.log(resultado); // O número é ímpar
+*/
 
+/*
 function fatorial(numero) {
     let resultado = 1;
     for (let i = 2; i <= numero; i++) {
